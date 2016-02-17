@@ -17,7 +17,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="36dp">
+            android:layout_height="61dp">
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -35,11 +35,10 @@
                 android:id="@+id/forwardButton"
                 android:layout_weight="1" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="New Text"
-                android:id="@+id/textView"
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
                 android:layout_weight="5" />
 
             <Button
@@ -49,6 +48,7 @@
                 android:text="Go"
                 android:id="@+id/goButton"
                 android:layout_weight="1" />
+
         </LinearLayout>
 
         <WebView
